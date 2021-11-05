@@ -1,0 +1,96 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    width: 756px;
+    height: 80vh;
+    margin: 75px auto 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 256px;
+    
+    background-color:  hsl(31, 77%, 52%);
+    height: 100%;
+    position: relative;
+    color: white;
+}
+.card-body{
+    padding: 50px;
+}
+h3 {
+    padding: 24px 0;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    text-align: left;
+    font-size: 14px;
+    color: hsl(0, 0%, 95%);
+    line-height: 20px;
+}
+button {
+   position: absolute;
+   bottom: 40px;
+   
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    color:  hsl(31, 77%, 52%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    
+}
+.btn-one{
+    color:  hsl(31, 77%, 52%);
+}
+.btn-two{
+    color: hsl(184, 100%, 22%);
+}
+.btn-three{
+    color:  hsl(179, 100%, 13%);
+}
+.color-change-two{
+   background-color: hsl(184, 100%, 22%);
+   height: 100%;
+}
+.color-change-three{
+   background-color: hsl(179, 100%, 13%);
+   height: 100%;   
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+    transition: all ease 0.3s;
+}
+
+@media screen and (max-width: 756px) {
+    .container{
+    
+        
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        border: 2px solid olive;
+        height: auto;
+        
+    }
+    .card{
+        border: 1px solid black;
+        width: 256px;
+        height: 70vh;
+        margin: 0 100px;
+    }
+  }
